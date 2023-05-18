@@ -14,7 +14,7 @@ dingo_velocity_controller:
   ros__parameters:
     left_wheel_names: ["left_wheel"]
     right_wheel_names: ["right_wheel"]
-    publish_rate: 50
+    publish_rate: 50.0
     odom_frame_id: odom
     base_frame_id: base_link
     pose_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 0.03]
